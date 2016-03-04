@@ -148,7 +148,7 @@ Set结构的实例有四个遍历方法，可以用于遍历成员。
 - entries()：返回一个键值对的遍历器
 - forEach()：使用回调函数遍历每个成员
 
-`key`方法、`value`方法、`entries`方法返回的都是遍历器对象（详见《Iterator对象》一章）。由于Set结构没有键名，只有键值（或者说键名和键值是同一个值），所以`key`方法和`value`方法的行为完全一致。
+`keys`方法、`values`方法、`entries`方法返回的都是遍历器对象（详见《Iterator对象》一章）。由于Set结构没有键名，只有键值（或者说键名和键值是同一个值），所以`keys`方法和`values`方法的行为完全一致。
 
 ```javascript
 let set = new Set(['red', 'green', 'blue']);
